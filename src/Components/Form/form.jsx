@@ -74,7 +74,7 @@ console.log(formData);
    console.log(response);
  });
  toast("Congratulation " +Name+ " Registration Sucessfull")
-//  e.target.reset();
+  e.target.reset();
 
 }
   return (

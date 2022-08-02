@@ -82,7 +82,7 @@ console.log(formData);
       <section id="contact">
   <div className="contact-box">
     <div className="contact-links">
-      <h2>CODE GAME</h2>
+      <h2>CB LPU</h2>
       <br/>
       <h3>REGISTER</h3>
     </div>

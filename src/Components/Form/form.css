@@ -206,16 +206,25 @@ label {
   }
 }
 
-@media only screen and (max-width: 400px) {
-  .contact-box {
-    width: 95%;
-    margin: 8% 5%;
-  }
-}
-
 @media only screen and (max-width: 800px) {
   h2 {
     font-size: clamp(40px, 10vw, 60px);
+  }
+
+  p {
+    font-size: 1.5rem !important;
+  }
+
+  input {
+    font-size: 1rem;
+  }
+
+  input[type="checkbox"] {
+    width: 1rem;
+  }
+
+  .contact-form-wrapper {
+    width: 100%;
   }
 }
 
@@ -231,6 +240,15 @@ label {
   img {
     width: 38px;
     height: 38px;
+  }
+
+  .contact-box {
+    width: 95%;
+    margin: 8% 5%;
+  }
+  
+  p {
+    font-size: 1rem !important;
   }
 }
 

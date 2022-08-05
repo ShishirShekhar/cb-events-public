@@ -131,6 +131,14 @@ const Form = () => {
                 />
               </div>
 
+    <div className="form-item">
+          <input type="date" 
+       onChange={(e) => setdob(e.target.value)}  
+           placeholder="Bate of birth"
+          required/>
+         
+        </div>
+
               <div className="form-item">
                 <input
                   type="number"

@@ -3,6 +3,9 @@ import "./form.css";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
+import logo from './cblogo.png';
+
+
 const Form = () => {
   const [Name, setName] = useState("");
   const [Email, setEmail] = useState("");
@@ -106,7 +109,8 @@ const Form = () => {
   };
 
   return (
-    <div>
+    <div className="page">
+      <img src={logo} alt="logo" className="logo" />
       <section id="contact">
         <div className="contact-box">
           <div className="contact-form-wrapper">
@@ -131,13 +135,14 @@ const Form = () => {
                 />
               </div>
 
-    <div className="form-item">
-          <input type="date" 
-       onChange={(e) => setdob(e.target.value)}  
-           placeholder="Bate of birth"
-          required/>
-         
-        </div>
+              <div className="form-item">
+                <input
+                  type="date"
+                  onChange={(e) => setdob(e.target.value)}
+                  placeholder="Bate of birth"
+                  required
+                />
+              </div>
 
               <div className="form-item">
                 <input
@@ -185,10 +190,10 @@ const Form = () => {
               </div>
 
               <div className="form-item">
-                <input
-                  type="text"
+                <textarea
                   onChange={(e) => setreview(e.target.value)}
                   placeholder="Why do you what to join CodingBlocks LPU"
+                  rows={1}
                   required
                 />
               </div>
@@ -202,7 +207,6 @@ const Form = () => {
               <button className="submit-btn" type="submit">
                 Register
               </button>
-
             </form>
           </div>
         </div>

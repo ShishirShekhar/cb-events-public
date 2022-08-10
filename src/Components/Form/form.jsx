@@ -115,7 +115,7 @@ const Form = () => {
         <div className="contact-box">
           <div className="contact-form-wrapper">
             <form onSubmit={handleSubmit}>
-              <p>CodingBlocksLPU Recruitment</p>
+              <p>Coding Blocks LPU Recruitment</p>
 
               <div className="form-item" id="create-course-form">
                 <input

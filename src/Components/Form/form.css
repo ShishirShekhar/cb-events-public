@@ -53,6 +53,7 @@ h3 {
 }
 
 .contact-form-wrapper {
+  background-color: transparent !important;
   border-radius: 10px !important;
 }
 
@@ -80,7 +81,9 @@ form {
 p {
   font-size: 3rem !important;
   font-weight: 500;
-  color: #fff;
+  color: #120a3a;
+  font-family: monospace;
+
   opacity: 0.7;
   font-size: 1.4rem;
   margin-top: 0;

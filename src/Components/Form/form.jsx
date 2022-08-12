@@ -140,7 +140,7 @@ const Form = () => {
                   type="text"
                   onChange={(e) => setdob(e.target.value)}
                   onFocus="(this.type='date')"
-                  placeholder="DOB"
+                  placeholder="DOB (DD/MM/YYYY)"
                   required
                 />
               </div>

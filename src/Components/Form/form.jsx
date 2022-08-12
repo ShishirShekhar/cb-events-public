@@ -137,9 +137,10 @@ const Form = () => {
 
               <div className="form-item">
                 <input
-                  type="date"
+                  type="text"
                   onChange={(e) => setdob(e.target.value)}
-                  placeholder="Bate of birth"
+                  onFocus="(this.type='date')"
+                  placeholder="DOB"
                   required
                 />
               </div>
